@@ -76,11 +76,12 @@ class Customer
               return result
             end
 
-            def remaining_funds()
+            def charge_ticket()
               films = self.films()
               film_fees = films.map{|film| film.price}
               combined_fees = film_fees.sum
               return @funds - combined_fees
             end
 
+          
           end

@@ -35,7 +35,9 @@ film3.save()
 
 
 
-p film1.customers
-p customer2.films
+# p film1.customers
+# p customer2.films
+#
+# p customer1.charge_ticket
 
-p customer1.charge
+p film1.attending_customers
